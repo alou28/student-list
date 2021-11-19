@@ -72,7 +72,7 @@ Now it is time to explain you each file's role:
 - student_age.json: contain student name with age on JSON format
 - student_age.py: contains the source code of the API in python
 - index.php: PHP  page where end-user will be connected to interact with the service to - list students with age. You need to update the following line before running the website container to make ***api_ip_or_name*** and ***port*** fit your deployment
-   ` $url = 'http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages';`
+   ` $url = 'http://192.168.1.68:8080/pozos/api/v1.0/get_student_ages';`
 
 
 
